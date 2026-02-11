@@ -1,63 +1,58 @@
-U of R CS/Math Co-op Playbook 🛠️
-=================================
+# 💻 Developer's Career Framework
 
-> **"Show, Don't Tell."**
+A "Mad Libs" style resume and career document generator, structured like a software project.
 
-Welcome to the unofficial, community-driven guide to landing Tech and Data internships at the University of Regina.
+> **⚠️ compilation_error:** Do not submit resumes with `[brackets]`. You MUST replace variables with your own data. Submitting a template as-is will result in a runtime error (Rejection).
 
-The Problem
------------
+---
 
-Standard university resume advice is often designed to be "one size fits all." It works great for Arts or Business majors, where the focus is on soft skills and narrative.
+## 🚀 The Workflow
 
-**It often fails Computer Science and Math students.**
+Treat your job search like a dev cycle.
 
-Tech recruiters do not care that you are a "hard worker" or "passionate learner." They want to know:
+### 1. `npm install` (Setup)
+Navigate to `/build_targets`.
+- **Level 0 User:** Open `/Level_0_Starter` for a basic template.
+- **Level 50 User:** Open `/Level_50_Veteran` for advanced layouts.
 
-1.  What can you build?
+### 2. `import { experience } from 'source_code'`
+Open the `/source_code` directory to find your "functions" (bullet points).
+- **`CS_Core.md`**: Logic & structure variables (Algorithms, Data Structs).
+- **`CS_Electives.md`**: Specialized tech variables (AI, Web, Networks).
+- **`Math_Stat.md`**: Quant & analytical variables.
+- **`Survival_Jobs.md`**: Retail & service industry translation layers.
 
-2.  What stack do you know?
+*Copy the best "functions" that match your history.*
 
-3.  Can you prove it?
+### 3. `npm run build` (Compile)
+Paste the bullets into your template.
+**CRITICAL STEP:** Fill in the `[brackets]` with your specific metrics, tools, and project names.
+- Bad: "Built a website."
+- Good: "Architected `[Project Name]` using `[React/Vue]` to solve `[User Problem]`, reducing load times by `[X]%`."
 
-The Philosophy
---------------
+### 4. `npm test` (Linting)
+Run your document against the checklists in `/linters`.
+- **`RESUME_LINTER.md`**: The pre-flight checklist. Checks for fatal errors (file names, cover sheets) and warnings (typos, bad formatting).
+- **`COVER_LETTER_GENERATOR.md`**: A "Hook" based template generator.
 
-This repository is built on three rules:
+---
 
-1.  **Code > Claims:** Don't list "Python" in your skills. Link to a project where you used it.
+## 📂 Project Structure
 
-2.  **Coursework IS Experience:** A complex final project in CS 210 is more valuable than a generic customer service job.
-
-3.  **ATS Compliance:** We use formats that robots (Applicant Tracking Systems) can read. No columns, no graphics, no photos.
-
-How to Use This Repo
---------------------
-
-### 📂 /Templates (Coming Soon)
-
-Clean, ATS-friendly resume templates in `.docx` and LaTeX.
-
-### 📂 /Course_Translator
-
-**Stop listing course codes.** Recruiters don't know what "CS 215" is. Use our "Mad Libs" style bullets to translate your academic assignments into professional technical experience.
-
--   [Go to Course Translator](https://github.com/soni-ishan/UofR-CS-Coop-Playbook/tree/main/Course-Translator)
-
-### 📂 /The_Retail_Pivot (Coming Soon)
-
-Have a survival job (Server, Retail, Fast Food)? Learn how to translate "taking orders" into "high-concurrency task management" for technical roles.
-
-### 📂 /AI_Prompts (Coming Soon)
-
-Don't ask ChatGPT to "write your resume." Use our engineering-focused prompts to roast and refine your bullet points.
-
-⚠️ Disclaimer
--------------
-
-**DO NOT COPY-PASTE.** The examples in this repository use `[brackets like this]` to force you to input your specific project details. If 50 students apply to the same job with the exact same resume text, **all 50 will be rejected.** Use these as a framework, not a script.
-
-Contributing
-------------
-
-Did you find a better way to describe CS 330? Did you land a job with a specific project description? **Pull Requests are welcome.** Help the next batch of students survive the job hunt.
+```text
+/
+├── README.md               # You are here. The Documentation.
+├── /source_code            # The "Mad Libs" Translators (Raw Bullet Points)
+│   ├── CS_Core.md          # Core CS skills
+│   ├── CS_Electives.md     # Specialized tech
+│   ├── Math_Stat.md        # Math/Stats skills
+│   └── Survival_Jobs.md    # Turning "Cashier" into "Client Success"
+│
+├── /build_targets          # The Templates (Output formats)
+│   ├── Level_0_Starter     # Clean, simple formats for first-years
+│   └── Level_50_Veteran    # Dense, skilled formats for seniors
+│
+└── /linters                # The Quality Control
+    ├── RESUME_LINTER.md        # The Checklist
+    └── COVER_LETTER_GENERATOR.md # The Cover Letter Template
+```
