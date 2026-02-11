@@ -1,5 +1,5 @@
-AI Resume Refiner Prompts
-=========================
+🤖 AI Resume Refiner Prompts
+============================
 
 **Stop asking ChatGPT to "Write my resume."** It produces generic, robotic text that recruiters hate. Instead, use these engineering-focused prompts to act as a force multiplier for your own writing.
 
@@ -7,8 +7,6 @@ AI Resume Refiner Prompts
 -------------------------------------
 
 *Use this to find weak spots in your current resume.*
-
-**Prompt:**
 
 > "Act as a strict Technical Recruiter for a [Target Role, e.g., Google Software Engineer]. Review the resume pasted below.
 >
@@ -25,15 +23,9 @@ AI Resume Refiner Prompts
 
 *Use this when applying to a specific job to ensure you hit the keywords.*
 
-**Prompt:**
-
-> "I am applying for this specific Job Description (JD):
+> "I am applying for this specific Job Description (JD): `[Paste Job Description Here]`
 >
-> `[Paste Job Description Here]`
->
-> Here is my current resume:
->
-> `[Paste Resume Here]`
+> Here is my current resume: `[Paste Resume Here]`
 >
 > **Task:** Rewrite my 'Projects' and 'Professional Experience' bullet points to strictly align with the keywords and priorities found in the JD. **Constraint:** Do not invent facts. Only rephrase my existing experience to match the terminology used in the JD. Highlight the specific keywords you inserted."
 
@@ -41,8 +33,6 @@ AI Resume Refiner Prompts
 ---------------------------------------------------
 
 *Use this when you have a rough idea of what you did, but can't make it sound professional.*
-
-**Prompt:**
 
 > "I need to write a resume bullet point for my time as a [Job Title, e.g., Barista].
 >
@@ -56,8 +46,6 @@ AI Resume Refiner Prompts
 ------------------------------
 
 *Use this to generate networking messages that get replies.*
-
-**Prompt:**
 
 > "I want to reach out to a [Role, e.g., Senior Developer] at [Company] via LinkedIn.
 >

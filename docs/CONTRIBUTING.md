@@ -1,5 +1,5 @@
-Contributing to the U of R CS/Math Co-op Playbook
-=================================================
+Contributing to the Developer's Career Framework
+================================================
 
 First off, thanks for taking the time to contribute! This guide is community-driven, and your experience helps the next batch of students survive the job hunt.
 
@@ -8,19 +8,19 @@ How Can You Help?
 
 ### 1\. Add a Course Translation
 
-Did you take a class we haven't listed (e.g., CS 340, CS 476)?
+Did you take a class we haven't listed?
 
--   Submit a Pull Request adding a new section to `Course_Translator/CS_Core.md` or `Course_Translator/Electives.md`.
+-   Submit a Pull Request adding a new section to `source_code/CS_Core.md` or `source_code/CS_Electives.md`.
 
 -   Provide 2-3 "Angles" (e.g., The Builder, The Researcher) so students have options.
 
--   **Rule:** Use `[brackets]` for specific project names.
+-   **Rule:** Use `[brackets]` for specific project names to prevent plagiarism.
 
 ### 2\. Add a Retail Pivot
 
 Did you work a job we missed (e.g., Lifeguard, Uber Driver, Farm Hand)?
 
--   Submit a Pull Request to `The_Retail_Pivot/Survival_Jobs.md`.
+-   Submit a Pull Request to `source_code/Survival_Jobs.md`.
 
 -   Explain how that job translates to **Data**, **Dev**, or **Support** roles.
 
@@ -28,7 +28,9 @@ Did you work a job we missed (e.g., Lifeguard, Uber Driver, Farm Hand)?
 
 Did you land a FAANG job with a specific resume layout?
 
--   Share the structure in the `Templates` folder.
+-   Share the structure in the `build_targets` folder.
+
+-   Ensure it is ATS-friendly (no columns, no graphics).
 
 How to Submit
 -------------
