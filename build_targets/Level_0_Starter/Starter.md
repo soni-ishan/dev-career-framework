@@ -22,7 +22,7 @@ Second-year [Major] student with a strong foundation in [Core Skill 1] and [Core
 
 ### Academic Projects
 
-*Since you lack work experience, these are your "Jobs". Use the **Course Translator** to fill these.*
+*Since you lack work experience, these are your "Jobs". Use the **source_code** to fill these.*
 
 **[Course Name/Project Name]** | University of Regina
 
@@ -38,7 +38,7 @@ Second-year [Major] student with a strong foundation in [Core Skill 1] and [Core
 
 ### Experience
 
-*Use the **Retail Pivot** guide to make these sound professional.*
+*Use the **source_code/Survival_Jobs.md** guide to make these sound professional.*
 
 **[Job Title, e.g., Server]** [Company Name], [City, SK] | [Dates]
 
