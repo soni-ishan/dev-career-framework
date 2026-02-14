@@ -1,4 +1,4 @@
-Contributing to the Developer's Career Framework
+Contributing to The Tech Co-op Playbook
 ================================================
 
 First off, thanks for taking the time to contribute! This guide is community-driven, and your experience helps the next batch of students survive the job hunt.

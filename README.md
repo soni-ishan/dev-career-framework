@@ -1,4 +1,4 @@
-💻 Developer's Career Framework
+💻 The Tech Co-op Playbook
 ===============================
 
 A "Mad Libs" style resume and career document generator, structured like a software project.
